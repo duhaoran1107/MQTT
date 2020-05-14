@@ -36,7 +36,7 @@ namespace MqttNetServer
                 };
 
                 //设置端口号
-                options.DefaultEndpointOptions.Port = 8031;
+                options.DefaultEndpointOptions.Port = 8048;
 
                 //创建Mqtt服务器
                 mqttServer = new MqttFactory().CreateMqttServer();
@@ -68,10 +68,12 @@ namespace MqttNetServer
             {
                 Console.Write($"服务器启动失败 Msg：{e}");
             }
-
         }
 
-        //客户订阅
+        /// <summary>
+        /// 客户订阅
+        /// </summary>
+        /// <param name="e"></param>
         private static void MqttNetServer_SubscribedTopic(MqttServerClientSubscribedTopicEventArgs e)
         {
             //客户端Id
@@ -80,7 +82,10 @@ namespace MqttNetServer
             Console.WriteLine($"客户端[{ClientId}]已订阅主题：{Topic}");
         }
 
-        //客户取消订阅
+        /// <summary>
+        /// 客户取消订阅
+        /// </summary>
+        /// <param name="e"></param>
         private static void MqttNetServer_UnSubscribedTopic(MqttServerClientUnsubscribedTopicEventArgs e)
         {
             //客户端Id
@@ -89,7 +94,10 @@ namespace MqttNetServer
             Console.WriteLine($"客户端[{ClientId}]已取消订阅主题：{Topic}");
         }
 
-        //接收消息
+        /// <summary>
+        /// 接收消息
+        /// </summary>
+        /// <param name="e"></param>
         private static void MqttServe_ApplicationMessageReceived(MqttApplicationMessageReceivedEventArgs e)
         {
             var ClientId = e.ClientId;
@@ -100,14 +108,20 @@ namespace MqttNetServer
             Console.WriteLine($"客户端[{ClientId}]>> 主题：[{Topic}] 负载：[{Payload}] Qos：[{Qos}] 保留：[{Retain}]");
         }
 
-        //客户连接
+        /// <summary>
+        /// 客户连接
+        /// </summary>
+        /// <param name="e"></param>
         private static void MqttNetServer_ClientConnected(MqttServerClientConnectedEventArgs e)
         {
             var ClientId = e.ClientId;
             Console.WriteLine($"客户端[{ClientId}]已连接");
         }
 
-        //客户连接断开
+        /// <summary>
+        /// 客户连接断开
+        /// </summary>
+        /// <param name="e"></param>
         private static void MqttNetServer_ClientDisConnected(MqttServerClientDisconnectedEventArgs e)
         {
             var ClientId = e.ClientId;

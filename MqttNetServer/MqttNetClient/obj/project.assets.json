@@ -3730,11 +3730,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DHR\\Desktop\\有用文件\\MQTT\\MqttNetServer\\MqttNetClient\\MqttNetClient.csproj",
+      "projectUniqueName": "C:\\Users\\DHR\\Desktop\\MQTT\\MqttNetServer\\MqttNetClient\\MqttNetClient.csproj",
       "projectName": "MqttNetClient",
-      "projectPath": "C:\\Users\\DHR\\Desktop\\有用文件\\MQTT\\MqttNetServer\\MqttNetClient\\MqttNetClient.csproj",
+      "projectPath": "C:\\Users\\DHR\\Desktop\\MQTT\\MqttNetServer\\MqttNetClient\\MqttNetClient.csproj",
       "packagesPath": "C:\\Users\\DHR\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DHR\\Desktop\\有用文件\\MQTT\\MqttNetServer\\MqttNetClient\\obj\\",
+      "outputPath": "C:\\Users\\DHR\\Desktop\\MQTT\\MqttNetServer\\MqttNetClient\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

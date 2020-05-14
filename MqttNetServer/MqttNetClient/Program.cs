@@ -27,7 +27,7 @@ namespace MqttNetClient
                 mqttClient = factory.CreateMqttClient();
 
                 var options = new MqttClientOptionsBuilder()
-                    .WithTcpServer("127.0.0.1", 8031)
+                    .WithTcpServer("127.0.0.1", 8048)
                     .WithCredentials("test", "test")
                     .WithClientId(Guid.NewGuid().ToString().Substring(0, 5))
                     .Build();
@@ -180,7 +180,6 @@ namespace MqttNetClient
                 .Build();
 
             await mqttClient.PublishAsync(MessageBuilder);
-
         }
     }
 }
