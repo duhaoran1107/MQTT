@@ -1,0 +1,15 @@
+C:\Users\DHR\Desktop\MqttNetServer\MqttNetClient\bin\Debug\netcoreapp3.1\MqttNetClient.exe
+C:\Users\DHR\Desktop\MqttNetServer\MqttNetClient\obj\Debug\netcoreapp3.1\MqttNetClient.AssemblyInfoInputs.cache
+C:\Users\DHR\Desktop\MqttNetServer\MqttNetClient\obj\Debug\netcoreapp3.1\MqttNetClient.AssemblyInfo.cs
+C:\Users\DHR\Desktop\MqttNetServer\MqttNetClient\obj\Debug\netcoreapp3.1\MqttNetClient.csproj.CoreCompileInputs.cache
+C:\Users\DHR\Desktop\MqttNetServer\MqttNetClient\bin\Debug\netcoreapp3.1\MqttNetClient.deps.json
+C:\Users\DHR\Desktop\MqttNetServer\MqttNetClient\bin\Debug\netcoreapp3.1\MqttNetClient.runtimeconfig.json
+C:\Users\DHR\Desktop\MqttNetServer\MqttNetClient\bin\Debug\netcoreapp3.1\MqttNetClient.runtimeconfig.dev.json
+C:\Users\DHR\Desktop\MqttNetServer\MqttNetClient\bin\Debug\netcoreapp3.1\MqttNetClient.dll
+C:\Users\DHR\Desktop\MqttNetServer\MqttNetClient\bin\Debug\netcoreapp3.1\MqttNetClient.pdb
+C:\Users\DHR\Desktop\MqttNetServer\MqttNetClient\bin\Debug\netcoreapp3.1\MQTTnet.dll
+C:\Users\DHR\Desktop\MqttNetServer\MqttNetClient\obj\Debug\netcoreapp3.1\MqttNetClient.csproj.CopyComplete
+C:\Users\DHR\Desktop\MqttNetServer\MqttNetClient\obj\Debug\netcoreapp3.1\MqttNetClient.dll
+C:\Users\DHR\Desktop\MqttNetServer\MqttNetClient\obj\Debug\netcoreapp3.1\MqttNetClient.pdb
+C:\Users\DHR\Desktop\MqttNetServer\MqttNetClient\obj\Debug\netcoreapp3.1\MqttNetClient.genruntimeconfig.cache
+C:\Users\DHR\Desktop\MqttNetServer\MqttNetClient\obj\Debug\netcoreapp3.1\MqttNetClient.csprojAssemblyReference.cache
