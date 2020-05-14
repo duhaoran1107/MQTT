@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "P8eYcI9DXM3/BjPq7k/SmhzwnL6ZzOsZ71a3Siy+F9CORzWYoTIJigKag9XLx02j6mNwG8ybk6WZ+GT210Ayhw==",
+  "dgSpecHash": "74tVjJmom/TOz4tJ1j8shynNMKWulAa4r2WfgTX811/KKxsYCemVJHhbT22U737awXDNGg96JDqcWI6MrGx21g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DHR\\Desktop\\有用文件\\MQTT\\MqttNetServer\\MqttNetClient\\MqttNetClient.csproj",
+  "projectFilePath": "C:\\Users\\DHR\\Desktop\\MQTT\\MqttNetServer\\MqttNetClient\\MqttNetClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DHR\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
